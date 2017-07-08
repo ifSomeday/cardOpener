@@ -8,6 +8,9 @@ automatically opens both kinds of TI7 player card packs
 * these packages will automatically install their dependencies, which include `gevent`, `protobuf`, `requests`
 * a valve web api key : http://steamcommunity.com/dev/apikey
 
+# why custom dota2 lib?
+The offical version hasnt been updated with the proper protos to actually open cards. specifically it is missing `EMsgClientToGCOpenPlayerCardPack`. All i did was rebuild the library with the newer protos included.
+
 # install
 * download this repository to a folder
 * using pip, install steam following instructions on their repo
